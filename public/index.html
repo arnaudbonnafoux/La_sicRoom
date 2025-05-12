@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <title>La sicRoom</title>
+    <meta name="keyword" content="musique actuelle, concerts">
+    <meta name="description" content="Site web de la sicRoom.">
+    <meta name="author" content="duanrA">
+    <meta http-equiv="refresh" content="30">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <style>
+        main {
+            display: flex;
+        }
+
+        section {
+            background-color: rgba(245, 245, 245, 0.3);
+            flex: 6;
+            display: flex;
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+
+        aside {
+            flex: 1;
+            font-size: large;
+            background-color: rgba(230, 230, 250, 1);
+            border-radius: 10px;
+        }
+
+        .li_aside {
+            font-size: medium;
+            list-style: none;
+            padding: 16px;
+        }
+
+        .présentation {
+            flex: 1;
+            text-align: justify;
+            padding: 20px;
+        }
+
+        .photo_présentation {
+            flex: 2;
+            border-radius: 10px;
+        }
+
+        article {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(230, 230, 250, 0.5);
+            border-radius: 10px;
+            gap: 10%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/dessin_1.jpeg" width="7%" style="margin: 10px; border-radius: 10px;">
+        <h1>La sicRoom</h1>
+    </header>
+    <nav>
+        <ul class=" ul_nav">
+            <li class="li_nav"><a class="a_nav" href="index.html"><b>Accueil</b></a></li>
+            <li class="li_nav"><a class="a_nav" href="agenda.html"><b>Agenda</b></a></li>
+            <li class="li_nav"><a class="a_nav" href="accompagnement.html"><b>Accompagnement</b></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <img class="photo_présentation" src="images/photo_2.jpg" width="33%">
+            <div class="présentation">
+                <h2 style="text-align: center;">Bienvenue à la sicRoom</h2>
+                <p style="text-align: center;">Votre scène de musiques actuelles</p>
+                <p>La sicRoom est une Scène de Musiques Actuelles (SMAC) dédiée à la création, la diffusion et le
+                    partage des musiques
+                    d’aujourd’hui,
+                    dans toute leur diversité. Rock, pop, rap, électro, métal, chanson, et bien plus encore :
+                    notre programmation reflète la richesse et l’énergie de la scène musicale contemporaine.</p>
+
+                <p>Plus qu’une salle de concert, la sicRoom est un lieu de vie et de rencontres,
+                    ouvert à toutes et à tous. Toute l’année, nous accueillons des concerts, des résidences d’artistes,
+                    des ateliers,
+                    des
+                    événements culturels et des projets participatifs.
+                    Nous soutenons la scène locale, accompagnons les talents émergents et favorisons les échanges entre
+                    les artistes et
+                    le
+                    public.</p>
+
+                <p>Que vous soyez passionné·e de musique, musicien·ne, curieux·se ou simple amateur·trice de
+                    découvertes, la sicRoom
+                    est
+                    votre espace.
+                    Venez vibrer, créer, écouter, apprendre… et surtout, partager.</p>
+            </div>
+        </section>
+        <aside>
+            <h2 style="text-align: center;">Infos</h2>
+            <ul class="animation_1">
+                <li class="li_aside"><strong>Prochain concert : le Samedi 21 mai avec Titi et son orchestre !</strong>
+                </li>
+                <li class="li_aside"><strong>Le concert de Kamélia est annulé.</strong></li>
+                <li class="li_aside"><strong>Inline Block trio sera en résidence le jeudi 17 juin.</strong></li>
+            </ul>
+        </aside>
+    </main>
+
+    <article>
+        <h3 style="padding-top: 20px; font-size:xx-large;">Direct Live des balances !</h3>
+        <span class="animation_1" style='font-size:100px;'>&#8658;</span>
+        <iframe style="margin-top: 10px; margin-bottom: 10px; border-radius: 10px;" width="560" height="315"
+            src="https://www.youtube.com/embed/YeHvUcdZ9t8?si=wO0bi7QKvHXASxtv"></iframe>
+    </article>
+
+    <footer>
+        <div class="div_icons_footer">
+            <img src="images/square-envelope-solid.svg" class="styles_icons_footer">
+            <img src="images/phone-solid.svg" class="styles_icons_footer">
+            <img src="images/location-pin-solid.svg" class="styles_icons_footer">
+        </div>
+        <div class="div_a_footer">
+            <a class="a_footer" href="mentions_légales.html">Mentions légales</a>
+            <a class="a_footer" href="conditions_légales.html">Conditions d'utilisation</a>
+        </div>
+        <p class="p_footer">&copy; duanrA</p>
+    </footer>
+
+</body>
+
+</html>

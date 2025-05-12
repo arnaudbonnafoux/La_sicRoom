@@ -1,0 +1,17 @@
+{
+  "name": "la_sicroom",
+  "version": "1.0.0",
+  "description": "\"Site consacré à la musique\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "\"test\": \"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "duanrA",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
