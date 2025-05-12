@@ -1,6 +1,6 @@
 # Site web d'une salle de concert
 
-Ce projet a été réalisé dans le cadre d'une formation de développeur web.  
+Ce projet est réalisé dans le cadre d'une formation de développeur web.  
 Il s'agit d'un site web pour une salle de concert, développé avec Node.js.
 
 ## Objectifs
