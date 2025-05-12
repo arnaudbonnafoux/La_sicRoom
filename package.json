@@ -1,16 +1,15 @@
 {
   "name": "la_sicroom",
   "version": "1.0.0",
-  "description": "\"Site consacré à la musique\"",
-  "main": "app.js",
+  "description": "Site consacré à la musique",
+  "main": "server/app.js",
   "scripts": {
-    "test": "\"test\": \"echo \\\"Error: no test specified\\\" && exit 1\""
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "[]"
-  ],
+  "keywords": [],
   "author": "duanrA",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^5.1.0"
   }
